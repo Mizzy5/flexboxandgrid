@@ -1,0 +1,83 @@
+@import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
+@import url("https://fonts.google.com/specimen/Lexend+Deca");
+
+
+main{
+    display: flex;
+    padding: 20px;
+    align-content: center;
+    margin: 15%;
+    flex-direction: column;
+    justify-content: center;
+    font-family: lexend deca;
+    font-weight: 400;
+    background-color: hsl(0, 0%, 95%);
+}
+.main-box{
+    display: flex;
+    flex-direction: row;
+    width: 800px;
+    overflow: hidden;
+    align-items: center;
+    min-height: 100vh;
+    border-radius: 15px;
+    border: 1px;
+    border-style: none;
+}
+.sedan{
+    background-color: hsl(31, 77%, 52%);
+    padding: 9.9vh;
+}
+.sedan p, h2{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.suv{
+    background-color: hsl(184, 100%, 22%);
+    padding: 10vh
+}
+.suv p, h2{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.luxury{
+    background-color: hsl(179, 100%, 13%);
+    padding: 10vh;
+}
+.luxury p, h2{
+    color: hsla(0, 0%, 100%, 0.75);
+}
+.luxury button{
+    border-radius: 25px;
+    border-style: hidden;
+    padding: 15px;
+}
+#btnsed:hover{
+    background-color: hsl(31, 77%, 52%);
+    border: 2px;
+    border-color: hsla(0, 0%, 100%, 0.75);
+    border-style: solid;
+}
+
+#btnsuv:hover{
+    background-color: hsl(184, 100%, 22%);
+    border: 2px;
+    border-color: hsla(0, 0%, 100%, 0.75);
+    border-style: solid;
+}
+
+#btnlux:hover{
+    background-color: hsl(179, 100%, 13%);
+    border: 2px;
+    border-color: hsla(0, 0%, 100%, 0.75);
+    border-style: solid;
+}
+
+.sedan button{
+    border-radius: 25px;
+    border-style: hidden;
+    padding: 15px;
+}
+.suv button{
+    border-radius: 25px;
+    border-style: hidden;
+    padding: 15px;
+}
