@@ -1,7 +1,9 @@
 @import url("https://fonts.google.com/specimen/Big+Shoulders+Display");
 @import url("https://fonts.google.com/specimen/Lexend+Deca");
 
-
+body{
+    background-color: hsl(0, 0%, 95%);
+}
 main{
     display: flex;
     padding: 20px;
@@ -11,7 +13,6 @@ main{
     justify-content: center;
     font-family: lexend deca;
     font-weight: 400;
-    background-color: hsl(0, 0%, 95%);
 }
 .main-box{
     display: flex;
